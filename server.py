@@ -7,7 +7,7 @@ import psycopg2
 
 DATABASE_URL = os.environ.get(
     "DATABASE_URL",
-    "postgresql://postgres:UwocProto2026!@uwoc-db.clmq80wy8lwq.us-west-2.rds.amazonaws.com:5432/uwoc",
+    "postgresql://postgres:UwocProto2026!@uwoc-db.clmq80wy8lwq.us-west-2.rds.amazonaws.com:5432/uwoc?sslmode=require",
 )
 
 
