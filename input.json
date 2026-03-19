@@ -1,0 +1,23 @@
+{
+  "ServiceName": "python-hello-cli",
+  "SourceConfiguration": {
+    "AuthenticationConfiguration": {
+      "ConnectionArn": "arn:aws:apprunner:us-west-2:780530185573:connection/github-apprunner/596ebb7aa72f4ed2a161256fbac08d86"
+    },
+    "AutoDeploymentsEnabled": true,
+    "CodeRepository": {
+      "RepositoryUrl": "https://github.com/kevinmcgui/apprunner_test",
+      "SourceCodeVersion": {
+        "Type": "BRANCH",
+        "Value": "main"
+      },
+      "CodeConfiguration": {
+        "ConfigurationSource": "REPOSITORY"
+      }
+    }
+  },
+  "InstanceConfiguration": {
+    "Cpu": "1024",
+    "Memory": "2048"
+  }
+}
